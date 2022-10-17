@@ -4,18 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Vinícius Coelho | Portfolio</title>
+        
+<!-- Início da minha customização CSS. -->
+<style>
+    body {
+        max-width: 1280px;
+        padding: 20px 60px;
+        background-color: #fafafa;
+        font-family: 'Raleway', sans-serif;
+        color: #333333;
+        font-size: 16px;
+    }
+    img.social {
+        padding-right: 10px;
+    }
+    #foto-perfil {
+        border-radius: 0 35px 35px 35px;
+        border: 8px solid #333333;
+    }
+    p#idade-local {
+        color: #777;
+        line-height: 0.2em;
+    }
+    h2#nome {
+        line-height: 0.2em;
+    }
+    li.newbie {
+        font-size: 13px;
+    }
+    li.midbomb {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    li.blaster {
+        font-size: 17px;
+        font-weight: 800;
+    }
+    ol#indice {
+        font-size: 14px;
+    }
+</style>
+<!-- Término da customização do CSS -->
+
 </head>
 <body>
-    <h1>Portifólio de Desenvolvimento Web</h1>
+    <h1>Portifólio Web</h1>
     <p><em>Este é o portifólio web que estará em constante aprimoramento à medida que eu for avançando no curso de 
         Desenvolvimento Web na Trybe.</em></p>
-        <h4>Tecnologia atual utilizada:</h4>
+        <h4>Tecnologias utilizadas atualmente:</h4>
         <ul type="disc">
             <li>HTML</li>
+            <li>CSS</li>
         </ul><br>
     <h3>Índice</h3>
-    <ol>
+    <ol id="indice">
         <li><a href="#foto-perfil">Foto</a></li>
         <li><a href="#sobre-mim">Sobre mim</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -23,8 +69,8 @@
         <li><a href="#contatos">Meus contatos</a></li>
     </ol><br>
     <img id="foto-perfil" src="./img/vinCoelho.png" width="200px" alt="homem em primeiro plano utilizando óculos e com tatuagens aparentes">
-    <h2>Vinícius Coelho</h2>
-    <em>35 anos | brasileiro | Belo Horizonte / MG</em><br><br>
+    <h2 id="nome">Vinícius Coelho</h2>
+    <p id="idade-local"><em>35 anos | brasileiro | Belo Horizonte / MG</em></p><br>
     <h3 id="sobre-mim">Sobre mim</h3>
     <p>Publicitário de formação com pós-graduação em fotografia e MBA em Gestão Estratégica de Marketing, trabalho 
         <strong>há mais de 10 anos como designer gráfico</strong>. Acredito que a troca de conhecimentos entre colegas fortalece 
@@ -37,11 +83,12 @@
         </p><br>
     <h3 id="habilidades">Habilidades</h3>
     <ul>
-        <li>Fotografia</li>
-        <li>Design Gráfico</li>
-        <li><strong>Home-brew</strong></li>
-        <li>Troca de fraldas</li>
-        <li>Fazer guacamole</li>
+        <li class="newbie">Desenvolvimento Web</li>
+        <li class="midbomb">Fotografia</li>
+        <li class="blaster">Design Gráfico</li>
+        <li class="newbie">Home-brew</li>
+        <li class="midbomb">Troca de fraldas</li>
+        <li class="blaster">Guacamole</li>
     </ul><br>
     <h3 id="links-de-interesse">Links de interesse</h3>
     <ul type="none">
@@ -49,10 +96,9 @@
         <li><a href="https://www.instagram.com/leitin/" target="_blank" alt="Instagram do leitin"><strong>leitin</strong></a> - Apenas o instagram de um amigo meu que acho que todos devem ver, porque o trabalho é simplesmente incrível. :)</li>
     </ul><br>
     <h3 id="contatos">Meus contatos</h3>
-    <a href="https://www.linkedin.com/in/viniciusraposo/" target="_blank" alt="LinkedIn: Vinícius Coelho">LinkedIn</a> |
-    <a href="https://github.com/vinCoelho" target="_blank" alt="GitHub: Vinícius Coelho">GitHub</a> |
-    <a href="http://be.net/viniciusraposo" target="_blank" alt="Behance: Vinícius Coelho">Behance</a>
+    <a href="https://www.linkedin.com/in/viniciusraposo/" target="_blank"><img class="social" src="/img/linkedin.png" width="30px" alt="LinkedIn: Vinícius Coelho"></a>
+    <a href="https://github.com/vinCoelho" target="_blank"><img class="social" src="/img/github.png" width="30px" alt="GitHub: Vinícius Coelho"></a>
+    <a href="http://be.net/viniciusraposo" target="_blank"><img class="social" src="/img/behance.png" width="30px" alt="Behance: Vinícius Coelho"></a>
 
-    <br><br><br>
 </body>
 </html>
