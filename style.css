@@ -1,0 +1,36 @@
+body {
+    max-width: 1280px;
+    padding: 20px 60px;
+    background-color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    font-size: 16px;
+}
+.social {
+    padding-right: 10px;
+}
+#foto-perfil {
+    border-radius: 0 35px 35px 35px;
+    border: 8px solid #333333;
+}
+#idade-local {
+    color: #777;
+    line-height: 0.2em;
+}
+#nome {
+    line-height: 0.2em;
+}
+.newbie {
+    font-size: 13px;
+}
+.midbomb {
+    font-size: 15px;
+    font-weight: 600;
+}
+.blaster {
+    font-size: 17px;
+    font-weight: 800;
+}
+#indice {
+    font-size: 14px;
+}
