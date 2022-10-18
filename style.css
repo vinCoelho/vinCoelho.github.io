@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1280px;
+    background-color: #f7f7f7;
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    font-size: 16px;
+}
+nav {
+    padding: 20px 60px 5px 50px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #00aadb;
+    padding: 5px;
+}
+nav ul li a:hover {
+    color: #ff2832;
+}
+.indice-titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+h2, h3, h4 {
+    line-height: 3em;
+}
+a {
+    text-decoration: none;
+    color: #0066c2;
+}
+a:hover {
+    color: #ff2832;
+}
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+}
+#bigode {
+    text-align: center;
+    padding: 10px 20px;
+}
+#perfil {
+    background-color: #fefefe;
+    padding: 6em 30px;
+    min-height: 300px;
+}
+#perfil-foto {
+    float: left;
+    margin-left: 60px;
+}
+#perfil-descricao {
+    float: right;
+    max-width: 65%;
+    margin-right: 60px;
+}
+#link-trybe {
+    text-decoration: none;
+    color: #00c48b;
+}
+#link-trybe:hover {
+    color: #0066c2;
+}
+.social {
+    padding-right: 10px;
+}
+#foto-perfil {
+    border-radius: 0 35px 35px 35px;
+    border: 8px solid #333333;
+    max-width: 200px;
+}
+#idade-local {
+    color: #777;
+    line-height: 0.5em;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+#nome {
+    line-height: 2em;
+}
+#bloco-inferior {
+    padding: 0em 50px 6em;
+    width: 80%;
+    margin: auto;
+}
+.blocos {
+    width: 30%;
+    margin: 20px 10px;
+    text-align: center;
+    display: inline-block;
+}
+.newbie {
+    font-size: 13px;
+}
+.midbomb {
+    font-size: 15px;
+    font-weight: 600;
+}
+.blaster {
+    font-size: 17px;
+    font-weight: 800;
+}
+#indice {
+    font-size: 14px;
+}
