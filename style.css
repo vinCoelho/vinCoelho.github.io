@@ -1,10 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     max-width: 1280px;
-    padding: 20px 60px;
     background-color: #fafafa;
     font-family: 'Raleway', sans-serif;
     color: #333333;
     font-size: 16px;
+}
+nav {
+    margin-left: 60px;
 }
 nav ul li {
     display: inline-block;
@@ -13,6 +19,32 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #0066c2;
+    padding: 5px;
+}
+nav ul li a:hover {
+    color: #ff2832;
+}
+.indice-titulo {
+    font-weight: 700;
+    font-size: 20px;
+}
+h1, h2, h3, h4 {
+    line-height: 3em;
+}
+#perfil {
+    background-color: #fefefe;
+    padding: 6em 30px;
+    min-height: 300px;
+}
+#perfil-foto {
+    float: left;
+    margin-left: 60px;
+}
+#perfil-descricao {
+    float: right;
+    max-width: 65%;
+    margin-right: 60px;
+    line-height: 1.5em;
 }
 .social {
     padding-right: 10px;
@@ -20,13 +52,16 @@ nav ul li a {
 #foto-perfil {
     border-radius: 0 35px 35px 35px;
     border: 8px solid #333333;
+    max-width: 200px;
 }
 #idade-local {
     color: #777;
-    line-height: 0.2em;
+    line-height: 0.5em;
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 #nome {
-    line-height: 0.2em;
+    line-height: 2em;
 }
 .newbie {
     font-size: 13px;

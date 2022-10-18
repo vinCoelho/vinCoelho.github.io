@@ -20,8 +20,8 @@
             <li>CSS</li>
         </ul><br>
     <nav>
-        <h3>Índice</h3>
         <ul id="indice" type="none">
+            <li class="indice-titulo">Índice</li>
             <li><a href="#foto-perfil">Foto</a></li>
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
@@ -29,19 +29,31 @@
             <li><a href="#contatos">Meus contatos</a></li>
         </ul><br>
     </nav>
-    <img id="foto-perfil" src="./img/vinCoelho.png" width="200px" alt="homem em primeiro plano utilizando óculos e com tatuagens aparentes">
-    <h2 id="nome">Vinícius Coelho</h2>
-    <p id="idade-local"><em>35 anos | brasileiro | Belo Horizonte / MG</em></p><br>
-    <h3 id="sobre-mim">Sobre mim</h3>
-    <p>Publicitário de formação com pós-graduação em fotografia e MBA em Gestão Estratégica de Marketing, trabalho 
-        <strong>há mais de 10 anos como designer gráfico</strong>. Acredito que a troca de conhecimentos entre colegas fortalece 
-        muito a equipe, gosto muito de ouvir um especialista explicar como funciona seu trabalho e entender como 
-        as coisas acontecem, mesmo em áreas completamente diferentes das de minha atuação. Isso me fez transitar 
-        por diferentes áreas na minha vida e sou convicto que essa mistura agrega no trabalho que desenvolvo hoje.</p>
-        <p>Meu objetivo atual é botar em prática um desejo de muito tempo, que é concluir um curso de desenvolvimento web e fazer
-            a transição de carreira, agregando todo o conhecimento que tenho na bagagem. Estou muito feliz de estar
-            dando esse passo importante como estudante da <a href="https://betrybe.com" target="_blank">Trybe</a>.
-        </p><br>
+    <!-- Foto de perfil e descrição -->
+    <div id="perfil">
+        <div id="perfil-foto">
+            <img id="foto-perfil" src="./img/vinCoelho.png" alt="homem em primeiro plano utilizando óculos e com tatuagens aparentes">
+            <h2 id="nome">Vinícius Coelho</h2>
+            <p id="idade-local"><em>35 anos | brasileiro | Belo Horizonte</em></p>
+            <p> 
+                <a href="https://www.linkedin.com/in/viniciusraposo/" target="_blank"><img id="contatos" class="social" src="/img/linkedin.png" width="30px" alt="LinkedIn: Vinícius Coelho"></a>
+                <a href="https://github.com/vinCoelho" target="_blank"><img class="social" src="/img/github.png" width="30px" alt="GitHub: Vinícius Coelho"></a>
+                <a href="http://be.net/viniciusraposo" target="_blank"><img class="social" src="/img/behance.png" width="30px" alt="Behance: Vinícius Coelho"></a>
+            </p>
+        </div>
+        <div id="perfil-descricao">
+            <h3 id="sobre-mim">Sobre mim</h3>
+            <p>Publicitário de formação com pós-graduação em fotografia e MBA em Gestão Estratégica de Marketing, trabalho 
+                <strong>há mais de 10 anos como designer gráfico</strong>. Acredito que a troca de conhecimentos entre colegas fortalece 
+                muito a equipe, gosto muito de ouvir um especialista explicar como funciona seu trabalho e entender como 
+                as coisas acontecem, mesmo em áreas completamente diferentes das de minha atuação. Isso me fez transitar 
+                por diferentes áreas na minha vida e sou convicto que essa mistura agrega no trabalho que desenvolvo hoje.</p>
+                <p>Meu objetivo atual é botar em prática um desejo de muito tempo, que é concluir um curso de desenvolvimento web e fazer
+                    a transição de carreira, agregando todo o conhecimento que tenho na bagagem. Estou muito feliz de estar
+                    dando esse passo importante como estudante da <a href="https://betrybe.com" target="_blank">Trybe</a>.
+                </p>
+        </div>
+    </div>
     <h3 id="habilidades">Habilidades</h3>
     <ul>
         <li class="newbie">Desenvolvimento Web</li>
@@ -56,10 +68,6 @@
         <li><a href="https://updateordie.com" target="_blank" alt="Update or Die"><strong>Update or Die</strong></a> - Blog coletivo sobre a indústria criativa.</li>
         <li><a href="https://www.instagram.com/leitin/" target="_blank" alt="Instagram do leitin"><strong>leitin</strong></a> - Apenas o instagram de um amigo meu que acho que todos devem ver, porque o trabalho é simplesmente incrível. :)</li>
     </ul><br>
-    <h3 id="contatos">Meus contatos</h3>
-    <a href="https://www.linkedin.com/in/viniciusraposo/" target="_blank"><img class="social" src="/img/linkedin.png" width="30px" alt="LinkedIn: Vinícius Coelho"></a>
-    <a href="https://github.com/vinCoelho" target="_blank"><img class="social" src="/img/github.png" width="30px" alt="GitHub: Vinícius Coelho"></a>
-    <a href="http://be.net/viniciusraposo" target="_blank"><img class="social" src="/img/behance.png" width="30px" alt="Behance: Vinícius Coelho"></a>
 
 </body>
 </html>
